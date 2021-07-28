@@ -58,7 +58,7 @@ class RainGaugeSensor : public Component {
         }
     }
 
-        void update() override {
+    void update() override {
 
-        }
-    };
+    }
+};
