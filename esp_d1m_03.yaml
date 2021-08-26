@@ -75,6 +75,7 @@ sensor:
   - platform: custom
     lambda: |-
       auto RainGauge = new RainGaugeSensor();
+      App.register_component(RainGauge);
       return {RainGauge->rain_daily_sensor,RainGauge->rain_total_sensor};
       
     sensors:
